@@ -9,6 +9,9 @@
 header {
   font-family: system-ui, Roboto;
   background-color: #1F2937;
+  position: fixed;
+  width: 100%;
+
 }
 
 

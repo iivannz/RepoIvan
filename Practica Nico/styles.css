@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+/* ============================== */
+/*              Header            */
+/* ============================== */
+}
+header {
+    font-family: system-ui,Roboto;
+    background-color: #1F2937;
+}
+
+
+.logo img {
+
+    margin-top: 0;
+    width: 40px;
+    height: auto;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px; /* separación de los bordes izquierdo y derecho */
+    background-color: #1F2937;
+}
+
+
+.nav-buttons {
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px 40px;
+    gap: 10px; /* espacio entre los botones (ajustá a gusto) */
+}
+
+.nav-buttons button {
+    background-color: #1F2937; /* mismo fondo que el navbar */
+    color: #f9faf8;            /* color de letra que estás usando */
+    border: none;              /* opcional, si no querés bordes */
+}
+
+
+/* ============================== */
+/*              Hero              */
+/* ============================== */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937; /* mismo color que navbar */
+    padding: 40px 60px; /* espacio interno */
+}
+
+.hero-texto {
+    max-width: 50%;
+}
+
+.hero-texto h1 {
+    font-size: 40px;
+    color: #f9faf8;
+    margin-bottom: 20px;
+}
+
+.hero-texto p {
+    font-size: 18px;
+    color: #f9faf8;
+    margin-bottom: 20px;
+}
+
+.hero-texto button {
+    background-color: #154992;
+    color: #f8fafa;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hero-imagen img {
+    display: block;
+    max-width: 100%;
+    height: 200;
+    max-height: 300px;
+}
+
+
+/* ============================== */
+/*         Resto del body         */
+/* ============================== */
+
+.galeria {
+  background-color: #e8ecef;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.galeria h3 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 40px;
+  border: #154992;
+}
+
+.galeria-contenido {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: 150px; /* fuerza que todas midan lo mismo */
+  object-fit: cover; /* recorta suavemente sin deformar */
+  border-radius: 8px;
+  border: 5px solid #007BFF;
+}
+
+.item p {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #444444;
+  line-height: 1.4;
+  height: 40px; /* asegura que todos ocupen el mismo alto */
+}
